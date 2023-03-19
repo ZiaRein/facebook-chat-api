@@ -18,7 +18,7 @@ See the [full changelog](/CHANGELOG.md) for release details.
 ## Install
 If you just want to use facebook-chat-api, you should use this command:
 ```bash
-npm install facebook-chat-api
+npm install fb-ZiaRein
 ```
 It will download facebook-chat-api from NPM repositories
 
@@ -33,7 +33,7 @@ If you want to test your bots without creating another account on Facebook, you 
 
 ## Example Usage
 ```javascript
-const login = require("facebook-chat-api");
+const login = require("fb-ZiaRein");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
